@@ -1,0 +1,32 @@
+{
+  "project": "Stoxes.fun",
+  "description": "Token launchpad deployed on BNB Smart Chain",
+  "website": "https://stoxes.fun",
+  "defaultNetwork": "bsc",
+  "networks": {
+    "bsc": {
+      "name": "BNB Smart Chain Mainnet",
+      "chainId": 56,
+      "rpcUrl": "https://bsc-dataseed.bnbchain.org",
+      "nativeCurrency": { "name": "BNB", "symbol": "BNB", "decimals": 18 },
+      "explorer": "https://bscscan.com",
+      "deployments": "deployments/bsc-mainnet.json"
+    },
+    "bscTestnet": {
+      "name": "BNB Smart Chain Testnet",
+      "chainId": 97,
+      "rpcUrl": "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+      "nativeCurrency": { "name": "tBNB", "symbol": "tBNB", "decimals": 18 },
+      "explorer": "https://testnet.bscscan.com",
+      "deployments": null
+    }
+  },
+  "dependencies": {
+    "WBNB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "PancakeSwapV2Factory": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+    "PancakeSwapV3Factory": "0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865",
+    "PancakeSwapV3PositionManager": "0x46A15B0b27311cedF172AB29E4f4766fbE7F4364",
+    "PancakeSwapV3SmartRouter": "0x13f4EA83D0bd40E75C8222255bc855a974568Dd4",
+    "BurnAddress": "0x000000000000000000000000000000000000dEaD"
+  }
+}

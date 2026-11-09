@@ -1,0 +1,128 @@
+{
+  "network": "BNB Smart Chain Mainnet",
+  "chainId": 56,
+  "explorer": "https://bscscan.com",
+  "verifiedAtBlock": 132667299,
+  "contracts": {
+    "taxImplementation": {
+      "name": "StoxesBnbRenounceableTaxToken",
+      "address": "0x06238d098a29c34a992e678733e86d25c5602046",
+      "source": "src/bnb/candidates/StoxesBnbRenounceableTaxToken.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0x06238d098a29c34a992e678733e86d25c5602046#code",
+      "verification": "Exact Match"
+    },
+    "math": {
+      "name": "StoxesBnbPortalMath",
+      "address": "0x73889a4fe8dc506493066bf3208386b59e7bdf10",
+      "source": "src/bnb/libraries/StoxesBnbPortalMath.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0x73889a4fe8dc506493066bf3208386b59e7bdf10#code",
+      "verification": "Exact Match"
+    },
+    "graduator": {
+      "name": "StoxesBnbGraduator",
+      "address": "0xa9f53edfa4b7445ef40e7b12a17733080efc200d",
+      "source": "src/bnb/StoxesBnbGraduator.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0xa9f53edfa4b7445ef40e7b12a17733080efc200d#code",
+      "verification": "Exact Match"
+    },
+    "portal": {
+      "name": "StoxesBnbPortal",
+      "address": "0xbe446b5baaaa003121b1196b01a1476a1ccaacc0",
+      "source": "src/bnb/StoxesBnbPortal.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0xbe446b5baaaa003121b1196b01a1476a1ccaacc0#code",
+      "verification": "Exact Match"
+    },
+    "taxProcessor": {
+      "name": "StoxesBnbTaxProcessor",
+      "address": "0xfebd1f41fcd25212b43d3d8710e2ea0824e57962",
+      "source": "src/bnb/StoxesBnbTaxProcessor.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0xfebd1f41fcd25212b43d3d8710e2ea0824e57962#code",
+      "verification": "Exact Match"
+    },
+    "v3Locker": {
+      "name": "StoxesBnbV3Locker",
+      "address": "0xa4e73d18e0e9d241aa6851c46053e22941b03903",
+      "source": "src/bnb/StoxesBnbV3Locker.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0xa4e73d18e0e9d241aa6851c46053e22941b03903#code",
+      "verification": "Exact Match"
+    },
+    "factory": {
+      "name": "StoxesBnbFactory",
+      "address": "0xdfb1afc6dabcbc23e5a3fd09c8a0137112f58f96",
+      "source": "src/bnb/StoxesBnbFactory.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0xdfb1afc6dabcbc23e5a3fd09c8a0137112f58f96#code",
+      "verification": "Exact Match"
+    },
+    "floorReserveVaultFactory": {
+      "name": "StoxesBnbAdminFloorReserveVaultFactory",
+      "address": "0x1d1a1ae8782f502f55a9fe0eb95b87fc8f14fd99",
+      "source": "src/bnb/vaults/StoxesBnbAdminFloorReserveVaultFactory.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0x1d1a1ae8782f502f55a9fe0eb95b87fc8f14fd99#code",
+      "verification": "Exact Match"
+    },
+    "stocksVaultFactory": {
+      "name": "StoxesBnbRoutedStocksVaultFactory",
+      "address": "0x51c6f2f6c438d1264a8ec0b43ec385214112c1c9",
+      "source": "src/bnb/vaults/StoxesBnbRoutedStocksVaultFactory.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0x51c6f2f6c438d1264a8ec0b43ec385214112c1c9#code",
+      "verification": "Exact Match"
+    },
+    "buybackBurnVaultFactory": {
+      "name": "StoxesBnbBuybackBurnVaultFactory",
+      "address": "0x77e535f92635616a848d0cc2584d6cb430a03cf2",
+      "source": "src/bnb/vaults/StoxesBnbBuybackBurnVaultFactory.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0x77e535f92635616a848d0cc2584d6cb430a03cf2#code",
+      "verification": "Exact Match"
+    },
+    "splitVaultFactory": {
+      "name": "StoxesBnbSplitVaultFactory",
+      "address": "0xc8f5fef467e58f64380712a4cebbaa89ceef7ac6",
+      "source": "src/bnb/vaults/StoxesBnbSplitVaultFactory.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0xc8f5fef467e58f64380712a4cebbaa89ceef7ac6#code",
+      "verification": "Exact Match"
+    },
+    "giftVaultFactory": {
+      "name": "StoxesBnbGiftVaultFactory",
+      "address": "0x3e3b96daecba4cb478f0cd2ed9c74e1728baadba",
+      "source": "src/bnb/vaults/StoxesBnbGiftVaultFactory.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0x3e3b96daecba4cb478f0cd2ed9c74e1728baadba#code",
+      "verification": "Exact Match"
+    },
+    "lens": {
+      "name": "StoxesBnbLens",
+      "address": "0x1fcc878aa095a8a33c67b2397330e5ffb00213f6",
+      "source": "src/bnb/StoxesBnbLens.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0x1fcc878aa095a8a33c67b2397330e5ffb00213f6#code",
+      "verification": "Exact Match"
+    },
+    "nativeBnbBurnVaultFactory": {
+      "name": "StoxesBnbNativeBurnVaultFactory",
+      "address": "0xF79e18AC2A766a7E9D1Cd513C24B32f54CFb2A38",
+      "source": "src/bnb/vaults/StoxesBnbNativeBurnVaultFactory.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0xF79e18AC2A766a7E9D1Cd513C24B32f54CFb2A38#code",
+      "verification": "Exact Match"
+    },
+    "simpleTokenImplementation": {
+      "name": "StoxesBnbSimpleToken",
+      "address": "0x201F2230015D9d99293555EcB9A8887cc4963D97",
+      "source": "src/bnb/StoxesBnbSimpleToken.sol",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "bscscan": "https://bscscan.com/address/0x201F2230015D9d99293555EcB9A8887cc4963D97#code",
+      "verification": "Exact Match"
+    }
+  }
+}
